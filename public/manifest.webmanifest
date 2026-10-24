@@ -1,0 +1,21 @@
+{
+  "name": "Aplikasi Sekolah Terpadu — Yayasan Mutiara Islam Cileungsi",
+  "short_name": "Sekolah Mutiara",
+  "description": "Kesiswaan, poin pelanggaran, dan portal cek poin siswa.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a7a35",
+  "theme_color": "#0a7a35",
+  "lang": "id",
+  "icons": [
+    { "src": "/img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/img/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/img/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Cek Poin Siswa", "url": "/cek-poin" },
+    { "name": "Catat Pelanggaran", "url": "/pelanggaran" }
+  ]
+}

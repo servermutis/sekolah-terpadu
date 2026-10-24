@@ -1,0 +1,11 @@
+{
+  "name": "sekolah-terpadu-ymic",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aplikasi Sekolah Terpadu — Yayasan Mutiara Islam Cileungsi (Supabase + Vercel)",
+  "engines": { "node": "22.x" },
+  "scripts": {
+    "dev": "node scripts/dev-server.js",
+    "test:db": "bash scripts/test-db.sh"
+  }
+}
